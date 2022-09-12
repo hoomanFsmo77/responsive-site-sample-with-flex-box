@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+    #section3 .container div:last-child{
+        display: none;
+    }
+    #section3 .container div img{
+        width: 75%;
+    }
+    .list li{
+        margin: 0 0.75rem 0.75rem 0.5rem;
+    }
+}
+#navbar{
+    flex-direction: column;
+}
+#section1 .container .item{
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+#section1 .container .item .content{
+    text-align: right;
+
+}
+#section1 .container .item:first-child{
+    padding: 0 1rem;
+}
+#section1 .container{
+    flex-direction: column;
+}
+#section2 .left{
+    display: none;
+}
+#section2 .right{
+    text-align: center;
+}
+#section4 .contact{
+    padding: 0 1rem;
+}
+#section4{
+    flex-direction: column;
+}

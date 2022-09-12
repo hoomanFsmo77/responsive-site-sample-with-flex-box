@@ -1,0 +1,6 @@
+#section1 .container .item{
+    flex-direction: row-reverse;
+}
+#section1 .container .item .content{
+    text-align: right;
+}

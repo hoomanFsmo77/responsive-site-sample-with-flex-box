@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot?#iefix') format("embedded-opentype");
+    src: url('../fonts/Vazir.ttf') format("truetype");
+    src: url('../fonts/Vazir.woff') format("woff");
+    src: url('../fonts/Vazir.woff2') format("woff2");
+}
+*{
+    font-family: Vazir,sans-serif,Arial, "Helvetica Condensed Black";
+    padding: 0;
+    margin: 0;
+
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*!*  ///////////////!*Unique Classes*!*!///////////////////////*/
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin: 2rem;
+}
+.m-3{
+    margin: 3rem;
+}
+.mx-1{
+    margin:0 1rem;
+}
+.mx-2{
+    margin:0 2rem;
+}
+.mx-3{
+    margin:0 3rem;
+}
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.my-3{
+    margin:3rem  0;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-3{
+    padding: 3rem;
+}
+.px-1{
+    padding:0 1rem;
+}
+.px-2{
+    padding:0 2rem;
+}
+.px-3{
+    padding:0 3rem;
+}
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.list li{
+    margin: 1rem;
+}
+.font-small{
+    font-size: 1rem;
+}
+.font-medium{
+    font-size: 2rem;
+}
+.font-large{
+    font-size: 4rem;
+}
+.orange-color{
+    color: orange;
+}
+.white-color{
+    color: white;
+}
+.gray-color{
+    color: #333333;
+}
+.btn{
+    background: orange;
+    border-radius: 4px;
+    padding: 0.5rem 2rem;
+}
+.text-center{
+    text-align: center;
+}
+.text-direction{
+    direction: rtl;
+}
+.bg-dark{
+    background: #333333;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+/*////////////////////////////////////////////////*/
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+#navbar .left h4{
+    display: inline-block;
+}
+#navbar .right ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#navbar .right ul li a{
+    color: white;
+    padding: 0.75rem;
+}
+#navbar .right ul li a:hover{
+    background: orange;
+    border-radius: 4px;
+
+}
+
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#showcase a:hover{
+    background: white;
+    color: orange;
+}
+
+#section1 .container .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#section1 .container .item .content{
+    text-align: center;
+}
+#section1 .container .item i{
+    background: orange;
+    border-radius: 100%;
+}
+#section2{
+    display: flex;
+    margin: 2rem 0 0 0;
+}
+#section2 .right{
+    flex: 1;
+    text-align: right;
+    padding-bottom: 1rem;
+}
+#section2 .left{
+    background: url(../img/section2.jpg) no-repeat center/cover;
+    flex: 1;
+}
+#section2 .right ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #fefefe;
+}
+#section3{
+    background: #f4f4f4;
+}
+#section3 .container div {
+    flex: 1;
+    width: 60%;
+    text-align: center;
+}
+#section3 .container  div img{
+    width: 60%;
+    border-radius: 50%;
+}
+#section4{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+#section4 .contact{
+    display: flex;
+    justify-content: center;
+    flex-basis: 600px;flex-direction: column;
+    text-align: right;
+}
+#section4 .contact .contact_detail label{
+    display: block;
+    padding: 0.75rem 0;
+}
+#section4 .contact .contact_detail input{
+    width: 99%;
+    height: 35px;
+}
+#section4 .contact .contact_detail textarea{
+    width: 99%;
+}
+#section4 .contact .btn{
+    align-self: flex-end;
+}
+#footer{
+    background: #333333;
+}
+#footer .container{
+    justify-content: space-between;
+}
+.user-message{
+    color: red;
+    display: none;
+}
+th{
+    padding-right: 2.9rem;
+    display: inline-block;
+    border-bottom: 1px solid;
+    padding-left: 2.9rem;
+}
+td{
+    display: inline-block;
+    border-bottom: 1px solid;
+    padding: 0 0.3rem;
+}
